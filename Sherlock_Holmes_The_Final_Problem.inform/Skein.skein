@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-208">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-208">
+    <command xml:space="preserve">Sherlock_Holmes_The_Final_Problem</command>
+    <result xml:space="preserve">London, 1895. A heavy fog presses against the windows of 221B Baker Street. You have found a bomb in your safe, planted by Moriarty.&#x000A;&#x000A;OBJECTIVE: Defuse the bomb.&#x000A;1. Explore the apartment (Kitchen, Bedroom, Lab).&#x000A;2. Ignore the distractions.&#x000A;3. Find the tools and the clue.&#x000A;4. Act before the timer runs out.&#x000A;&#x000A;Sherlock Holmes: The Final Problem&#x000A;An Interactive Fiction by Student&#x000A;Release 1 / Serial number 260113 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+      <child nodeId="node-222"/>
+      <child nodeId="node-269"/>
+      <child nodeId="node-279"/>
+      <child nodeId="node-296"/>
+      <child nodeId="node-311"/>
+      <child nodeId="node-322"/>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;The main study. Dr. Watson is standing here nervously. A locked safe is in the corner.&#x000A;&#x000A;Your loyal assistant, Dr. Watson.&#x000A;&#x000A;You can also see a safe (closed) and a silver key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">talk to watson</command>
+    <result xml:space="preserve">"Holmes, you must analyze the liquid in the Laboratory first!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;Sherlock's home lab. Smells of sulfur. The Office is to the EAST.&#x000A;&#x000A;A bottle of reagent.&#x000A;&#x000A;You can also see a test tube here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">mix chemical with tube</command>
+    <result xml:space="preserve">You carefully pour the blue chemical into the tube. It turns BRIGHT PURPLE! It is arsenic! You have the proof.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;The main study. Dr. Watson is standing here nervously. A locked safe is in the corner.&#x000A;&#x000A;Your loyal assistant, Dr. Watson.&#x000A;&#x000A;You can also see a safe (closed) and a silver key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">talk to watson</command>
+    <result xml:space="preserve">"Brilliant, Holmes! You found the toxin! Open the safe now!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing an evidence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">take evidence</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&#x000A;&#x000A;    *** ELEMENTARY! You analyzed the poison and found the confession. Case closed. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Kitchen&#x000A;Mrs. Hudson's domain, currently empty. There is a smell of cold tea and toast. A cupboard stands against the wall.&#x000A;&#x000A;A cup of Earl Grey, half finished.&#x000A;&#x000A;You can also see a cupboard (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">open cupboard</command>
+    <result xml:space="preserve">You open the cupboard, revealing a butter knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">take cup</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">examine cup</command>
+    <result xml:space="preserve">You see nothing special about the cup of tea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">drink cup</command>
+    <result xml:space="preserve">It is stone cold and bitter. You regret that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">examine wallpaper</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bedroom&#x000A;A messy personal room. A bed stands unmade. A heavy coat hangs on the chair. A violin case lies open on the floor.&#x000A;&#x000A;Holmes's famous Stradivarius violin.&#x000A;&#x000A;Heavy-duty wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">take violin</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">play violin</command>
+    <result xml:space="preserve">You play a quick, frantic melody to clear your mind. Watson yells from the other room: "Not now, Holmes!"&#x000A;&#x000A;From the street below, you hear a carriage pass by. Time is running out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">take cutters</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">You recognize the handwriting instantly. It says: "The Royal BLOOD is blue. Remember that when you make your choice." (Hint: Cut the BLUE wire).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">take book</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">read book</command>
+    <result xml:space="preserve">Written by Professor Moriarty. Pure mathematics. It contains no clues about bombs.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bedroom&#x000A;A messy personal room. A bed stands unmade. A heavy coat hangs on the chair. A violin case lies open on the floor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">examine case</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">make bed</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Kitchen&#x000A;Mrs. Hudson's domain, currently empty. There is a smell of cold tea and toast. A cupboard stands against the wall.&#x000A;&#x000A;You can see a cupboard (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve"> west</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Laboratory&#x000A;A wooden table filled with bubbling retorts, bunsen burners, and strange glass jars. A bowl of acid sits dangerously on the edge.&#x000A;&#x000A;Iron tongs (stained with chemicals).&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;Dr. Watson shouts: "Holmes! The ticking is getting deafening!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Using the tongs, you carefully fish the key out of the hissing acid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">cut red wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">cut blue </command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">cut wire</command>
+    <result xml:space="preserve">(the wire cutters)&#x000A;Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">whz</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;Your sleeping quarters. A coat is hanging here.&#x000A;&#x000A;You can see a coat (in which is a magnifying glass) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">open coat</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">take glass</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's office at 221B Baker Street. It is messy. A safe is here. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) and a small key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Using the magnifying glass, you find a microscopic key on the floor! You take it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a secret letter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">take letter</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&#x000A;&#x000A;    *** You found the letter! Case closed. Excellent work, Holmes! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bedroom&#x000A;A messy personal room. A bed stands unmade. A heavy coat hangs on the chair. A violin case lies open on the floor.&#x000A;&#x000A;Holmes's famous Stradivarius violin.&#x000A;&#x000A;Heavy-duty wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">You recognize the handwriting instantly. It says: "The Royal BLOOD is blue. Remember that when you make your choice." &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">take cutters</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Laboratory&#x000A;A wooden table filled with bubbling retorts, bunsen burners, and strange glass jars. A bowl of acid sits dangerously on the edge.&#x000A;&#x000A;Iron tongs (stained with chemicals).&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-287"/>
+    </children>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Using the tongs, you carefully fish the key out of the hissing acid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;From the street below, you hear a carriage pass by. Time is running out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">cut red wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">wirecut red wire</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">pogledaj</command>
+    <result xml:space="preserve">Svlacionica&#x000A;Nalazis se u svlacionici. Zrak je tezak od napetosti i mirisa mentola. Trener je upravo zavrsio govor. Tvoja oprema je na klupi, a izlaz prema terenu je na sjeveru.&#x000A;&#x000A;You can see a drvena klupa (on which are a dres s brojem deset and a kopacke) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">obuci opremu</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">obuci oprema</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">uzmi oprema</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Ne mozes na teren bez dresa! Sudac te nece pustiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">uzmi dres</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Ne mozes na teren bez dresa! Sudac te nece pustiti.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">obuci dres</command>
+    <result xml:space="preserve">You put on the dres s brojem deset.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Jesi li lud? Ne mozes igrati bos!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">obuci kopacke</command>
+    <result xml:space="preserve">(first taking the kopacke)&#x000A;You put on the kopacke.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Tunel&#x000A;Mracan betonski tunel. Cujes huk navijaca koji dolazi sa sjevera, s glavnog terena.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">pogledaj</command>
+    <result xml:space="preserve">Tunel&#x000A;Mracan betonski tunel. Cujes huk navijaca koji dolazi sa sjevera, s glavnog terena.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Teren&#x000A;Zeleni travnjak pod reflektorima. Stadion je pun. Sudac gleda na sat. Ovo je tvoja prilika.&#x000A;&#x000A;You can see a nogometna lopta and a protivnicki gol (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">pucaj loptu</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">pogledaj</command>
+    <result xml:space="preserve">Teren&#x000A;Zeleni travnjak pod reflektorima. Stadion je pun. Sudac gleda na sat. Ovo je tvoja prilika.&#x000A;&#x000A;You can see a nogometna lopta and a protivnicki gol (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">sout</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-321">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;From the street below, you hear a carriage pass by. Time is running out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+      <child nodeId="node-339"/>
+    </children>
+  </item>
+  <item nodeId="node-323">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-324"/>
+    </children>
+  </item>
+  <item nodeId="node-324">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bedroom&#x000A;A messy personal room. A bed stands unmade. A heavy coat hangs on the chair. A violin case lies open on the floor.&#x000A;&#x000A;Holmes's famous Stradivarius violin.&#x000A;&#x000A;Heavy-duty wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-325"/>
+    </children>
+  </item>
+  <item nodeId="node-325">
+    <command xml:space="preserve">take cutters</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-326"/>
+    </children>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">sout</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Laboratory&#x000A;A wooden table filled with bubbling retorts, bunsen burners, and strange glass jars. A bowl of acid sits dangerously on the edge.&#x000A;&#x000A;Iron tongs (stained with chemicals).&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;From the street below, you hear a carriage pass by. Time is running out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Using the tongs, you carefully fish the key out of the hissing acid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
+  </item>
+  <item nodeId="node-334">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-335"/>
+    </children>
+  </item>
+  <item nodeId="node-335">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-336"/>
+    </children>
+  </item>
+  <item nodeId="node-336">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-337"/>
+    </children>
+  </item>
+  <item nodeId="node-337">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-338"/>
+    </children>
+  </item>
+  <item nodeId="node-338">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">With steady hands, you sever the blue wire. The clockwork mechanism winds down with a groan. Silence falls over Baker Street.&#x000A;&#x000A;&#x000A;&#x000A;    *** ELEMENTARY! You have saved the day once again. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-339">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Laboratory&#x000A;A wooden table filled with bubbling retorts, bunsen burners, and strange glass jars. A bowl of acid sits dangerously on the edge.&#x000A;&#x000A;Iron tongs (stained with chemicals).&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-340"/>
+    </children>
+  </item>
+  <item nodeId="node-340">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-341"/>
+    </children>
+  </item>
+  <item nodeId="node-341">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Using the tongs, you carefully fish the key out of the hissing acid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-342"/>
+    </children>
+  </item>
+  <item nodeId="node-342">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-343"/>
+    </children>
+  </item>
+  <item nodeId="node-343">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-344"/>
+    </children>
+  </item>
+  <item nodeId="node-344">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-345"/>
+    </children>
+  </item>
+  <item nodeId="node-345">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Bedroom&#x000A;A messy personal room. A bed stands unmade. A heavy coat hangs on the chair. A violin case lies open on the floor.&#x000A;&#x000A;Holmes's famous Stradivarius violin.&#x000A;&#x000A;Heavy-duty wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-346"/>
+    </children>
+  </item>
+  <item nodeId="node-346">
+    <command xml:space="preserve">take cutters</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-347"/>
+    </children>
+  </item>
+  <item nodeId="node-347">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;From the street below, you hear a carriage pass by. Time is running out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-348"/>
+    </children>
+  </item>
+  <item nodeId="node-348">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">You recognize the handwriting instantly. It says: "The Royal BLOOD is blue. " &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-349"/>
+    </children>
+  </item>
+  <item nodeId="node-349">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Hallway&#x000A;A dimly lit corridor in 221B Baker Street. The wallpaper is peeling slightly. To the NORTH is the Bedroom. To the SOUTH is the Office. To the EAST is the Kitchen.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-350"/>
+    </children>
+  </item>
+  <item nodeId="node-350">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's chaotic study. Papers are scattered everywhere. The air smells of stale tobacco. To the WEST is the Laboratory. A massive iron safe stands in the corner.&#x000A;&#x000A;Dr. Watson is pacing back and forth, looking pale.&#x000A;&#x000A;A book titled "The Dynamics of an Asteroid".&#x000A;&#x000A;You can also see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-351"/>
+    </children>
+  </item>
+  <item nodeId="node-351">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-352"/>
+    </children>
+  </item>
+  <item nodeId="node-352">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-353"/>
+    </children>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">cut red wire</command>
+    <result xml:space="preserve">You snip the red wire. The ticking stops for a second...&#x000A;&#x000A;&#x000A;&#x000A;    *** CLICK. BOOM! You chose poorly. The red wire was the trigger. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;A table full of chemicals. A bowl of acid is here.&#x000A;&#x000A;Iron tongs.&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-356"/>
+      <child nodeId="node-400"/>
+    </children>
+  </item>
+  <item nodeId="node-356">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">The acid burns! You need tongs to pick that up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-357"/>
+    </children>
+  </item>
+  <item nodeId="node-357">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-358"/>
+    </children>
+  </item>
+  <item nodeId="node-358">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You use the tongs to take the key safely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-359"/>
+    </children>
+  </item>
+  <item nodeId="node-359">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-360"/>
+    </children>
+  </item>
+  <item nodeId="node-360">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;A quiet room. A coat hangs on the chair.&#x000A;&#x000A;Wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-361"/>
+    </children>
+  </item>
+  <item nodeId="node-361">
+    <command xml:space="preserve">open coat</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-362"/>
+    </children>
+  </item>
+  <item nodeId="node-362">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-363"/>
+    </children>
+  </item>
+  <item nodeId="node-363">
+    <command xml:space="preserve">open note</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-364"/>
+    </children>
+  </item>
+  <item nodeId="node-364">
+    <command xml:space="preserve">take wire cutters</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-365"/>
+    </children>
+  </item>
+  <item nodeId="node-365">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-366"/>
+    </children>
+  </item>
+  <item nodeId="node-366">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-367"/>
+    </children>
+  </item>
+  <item nodeId="node-367">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;A table full of chemicals. A bowl of acid is here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-368"/>
+    </children>
+  </item>
+  <item nodeId="node-368">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-369"/>
+    </children>
+  </item>
+  <item nodeId="node-369">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-370"/>
+    </children>
+  </item>
+  <item nodeId="node-370">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-371"/>
+    </children>
+  </item>
+  <item nodeId="node-371">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;The ticking is getting faster! 5 minutes left!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-372"/>
+    </children>
+  </item>
+  <item nodeId="node-372">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-373"/>
+    </children>
+  </item>
+  <item nodeId="node-373">
+    <command xml:space="preserve">cut red wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-374"/>
+    </children>
+  </item>
+  <item nodeId="node-374">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-375"/>
+    </children>
+  </item>
+  <item nodeId="node-375">
+    <command xml:space="preserve">cut</command>
+    <result xml:space="preserve">What do you want to cut?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-376"/>
+    </children>
+  </item>
+  <item nodeId="node-376">
+    <command xml:space="preserve">wire</command>
+    <result xml:space="preserve">Which do you mean, the red wire or the blue wire?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-377"/>
+    </children>
+  </item>
+  <item nodeId="node-377">
+    <command xml:space="preserve">red</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-378"/>
+    </children>
+  </item>
+  <item nodeId="node-378">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;A table full of chemicals. A bowl of acid is here.&#x000A;&#x000A;&#x000A;&#x000A;    *** BOOM! The bomb exploded. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-379"/>
+    </children>
+  </item>
+  <item nodeId="node-379">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Defuse the bomb in the safe! Find the key in the acid (use tools) and cut the right wire.&#x000A;&#x000A;Sherlock Holmes: The Bomb Case&#x000A;An Interactive Fiction by Student&#x000A;Release 1 / Serial number 260101 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-380"/>
+    </children>
+  </item>
+  <item nodeId="node-380">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;A table full of chemicals. A bowl of acid is here.&#x000A;&#x000A;Iron tongs.&#x000A;&#x000A;You can also see a golden key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-381"/>
+    </children>
+  </item>
+  <item nodeId="node-381">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-382"/>
+    </children>
+  </item>
+  <item nodeId="node-382">
+    <command xml:space="preserve">take golden key</command>
+    <result xml:space="preserve">You use the tongs to take the key safely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-383"/>
+    </children>
+  </item>
+  <item nodeId="node-383">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-384"/>
+    </children>
+  </item>
+  <item nodeId="node-384">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-385"/>
+    </children>
+  </item>
+  <item nodeId="node-385">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;A quiet room. A coat hangs on the chair.&#x000A;&#x000A;Wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-386"/>
+    </children>
+  </item>
+  <item nodeId="node-386">
+    <command xml:space="preserve">take wire cutters</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-387"/>
+    </children>
+  </item>
+  <item nodeId="node-387">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-388"/>
+    </children>
+  </item>
+  <item nodeId="node-388">
+    <command xml:space="preserve">open coat</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-389"/>
+    </children>
+  </item>
+  <item nodeId="node-389">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-390"/>
+    </children>
+  </item>
+  <item nodeId="node-390">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-391"/>
+    </children>
+  </item>
+  <item nodeId="node-391">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-392"/>
+    </children>
+  </item>
+  <item nodeId="node-392">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-393"/>
+    </children>
+  </item>
+  <item nodeId="node-393">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-394"/>
+    </children>
+  </item>
+  <item nodeId="node-394">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-395"/>
+    </children>
+  </item>
+  <item nodeId="node-395">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;The ticking is getting faster! 5 minutes left!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-396"/>
+    </children>
+  </item>
+  <item nodeId="node-396">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">Cutting it up would achieve little.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-397"/>
+    </children>
+  </item>
+  <item nodeId="node-397">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">You see nothing special about the note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-398"/>
+    </children>
+  </item>
+  <item nodeId="node-398">
+    <command xml:space="preserve">look inside coat</command>
+    <result xml:space="preserve">The coat is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-399"/>
+    </children>
+  </item>
+  <item nodeId="node-399">
+    <command xml:space="preserve">read note</command>
+    <result xml:space="preserve">You see nothing special about the note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-400">
+    <command xml:space="preserve">take tongs</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-401"/>
+      <child nodeId="node-415"/>
+    </children>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">take gold key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">take golden key</command>
+    <result xml:space="preserve">You use the tongs to take the key safely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-403"/>
+    </children>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-404"/>
+    </children>
+  </item>
+  <item nodeId="node-404">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;A quiet room. A coat hangs on the chair.&#x000A;&#x000A;A pair of sharp wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-405"/>
+    </children>
+  </item>
+  <item nodeId="node-405">
+    <command xml:space="preserve">take wire cutters</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-406"/>
+    </children>
+  </item>
+  <item nodeId="node-406">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-407"/>
+    </children>
+  </item>
+  <item nodeId="node-407">
+    <command xml:space="preserve">look inside coat</command>
+    <result xml:space="preserve">In the coat is a note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-408"/>
+    </children>
+  </item>
+  <item nodeId="node-408">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-409"/>
+    </children>
+  </item>
+  <item nodeId="node-409">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">The handwriting matches Moriarty's. It says: "Blue blood saves the Queen." (Hint: Cut the BLUE wire).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-410"/>
+    </children>
+  </item>
+  <item nodeId="node-410">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-411"/>
+    </children>
+  </item>
+  <item nodeId="node-411">
+    <command xml:space="preserve">unlock safe with key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-412"/>
+    </children>
+  </item>
+  <item nodeId="node-412">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-413"/>
+    </children>
+  </item>
+  <item nodeId="node-413">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">SNIP! You cut the blue wire. The timer stops ticking. The silence is wonderful.&#x000A;&#x000A;&#x000A;&#x000A;    *** You saved London! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-414"/>
+    </children>
+  </item>
+  <item nodeId="node-414">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-415">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You use the tongs to take the key safely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-416"/>
+    </children>
+  </item>
+  <item nodeId="node-416">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-417"/>
+    </children>
+  </item>
+  <item nodeId="node-417">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;A quiet room. A coat hangs on the chair.&#x000A;&#x000A;A pair of sharp wire cutters.&#x000A;&#x000A;You can also see a coat (in which is a note) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-418"/>
+    </children>
+  </item>
+  <item nodeId="node-418">
+    <command xml:space="preserve">take coat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-419"/>
+    </children>
+  </item>
+  <item nodeId="node-419">
+    <command xml:space="preserve">look inside</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-420"/>
+    </children>
+  </item>
+  <item nodeId="node-420">
+    <command xml:space="preserve">look inside coat</command>
+    <result xml:space="preserve">In the coat is a note.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-421"/>
+    </children>
+  </item>
+  <item nodeId="node-421">
+    <command xml:space="preserve">open note</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-422"/>
+    </children>
+  </item>
+  <item nodeId="node-422">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">The handwriting matches Moriarty's. It says: "Blue blood saves the Queen." &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-423"/>
+    </children>
+  </item>
+  <item nodeId="node-423">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-424"/>
+    </children>
+  </item>
+  <item nodeId="node-424">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-425"/>
+    </children>
+  </item>
+  <item nodeId="node-425">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">What do you want to unlock the safe with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-426"/>
+    </children>
+  </item>
+  <item nodeId="node-426">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-427"/>
+    </children>
+  </item>
+  <item nodeId="node-427">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe, revealing a time bomb, a red wire and a blue wire.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-428"/>
+    </children>
+  </item>
+  <item nodeId="node-428">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">You can't cut wires with your bare hands! You need the wire cutters.&#x000A;&#x000A;The ticking is getting faster! 5 minutes left!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-429"/>
+    </children>
+  </item>
+  <item nodeId="node-429">
+    <command xml:space="preserve">cut wire with wire cutters</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-430"/>
+    </children>
+  </item>
+  <item nodeId="node-430">
+    <command xml:space="preserve">cut blue wire</command>
+    <result xml:space="preserve">You can't cut wires with your bare hands! You need the wire cutters.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-431"/>
+    </children>
+  </item>
+  <item nodeId="node-431">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Laboratory&#x000A;A table full of chemicals. A bowl of acid is here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-432"/>
+    </children>
+  </item>
+  <item nodeId="node-432">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;Sherlock's study. The Laboratory is to the WEST. The Bedroom is to the NORTH.&#x000A;&#x000A;You can see a safe (in which are a time bomb, a red wire and a blue wire) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-433"/>
+    </children>
+  </item>
+  <item nodeId="node-433">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-434"/>
+    </children>
+  </item>
+  <item nodeId="node-434">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bedroom&#x000A;A quiet room. A coat hangs on the chair.&#x000A;&#x000A;A pair of sharp wire cutters.&#x000A;&#x000A;&#x000A;&#x000A;    *** BOOM! The bomb exploded. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
